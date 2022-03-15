@@ -37,11 +37,11 @@ const Home = (props) => {
           </div>
         </div>
         <div className={styles['BtnGroup']}>
-          <button
+          <a href="https://buy.stripe.com/test_5kA6p45NPbbbb5K4gg" target="_blank"
             className={` ${styles['button']} ${projectStyles['button']} `}
           >
-            BUY NOW
-          </button>
+            <a href="https://buy.stripe.com/test_5kA6p45NPbbbb5K4gg" target="_blank">BUY NOW</a>
+          </a>
         </div>
         <div data-type="BurgerMenu" className={styles['BurgerMenu']}>
           <svg viewBox="0 0 1024 1024" className={styles['icon02']}>
@@ -99,11 +99,11 @@ const Home = (props) => {
           <h1 className={styles['text05']}>A Totally Not Fake Book.</h1>
           <h2 className={styles['text06']}>LEARNING LOOP SPECIAL EDITION</h2>
           <div className={styles['BtnGroup1']}>
-            <button
+          <a href="https://buy.stripe.com/test_5kA6p45NPbbbb5K4gg" target="_blank"
               className={` ${styles['button1']} ${projectStyles['button']} `}
             >
-              BUY BOOK
-            </button>
+              <a href="https://buy.stripe.com/test_5kA6p45NPbbbb5K4gg" target="_blank">BUY BOOK</a>
+            </a>
             <button
               className={` ${styles['button2']} ${projectStyles['button']} `}
             >
@@ -141,11 +141,11 @@ const Home = (props) => {
           REFUNDS.
         </span>
         <div className={styles['container5']}>
-          <button
+          <a href="https://buy.stripe.com/test_5kA6p45NPbbbb5K4gg" target="_blank"
             className={` ${styles['button3']} ${projectStyles['button']} `}
           >
-            Buy Now
-          </button>
+            <a href="https://buy.stripe.com/test_5kA6p45NPbbbb5K4gg" target="_blank">Buy Now</a>
+          </a>
         </div>
       </div>
       <footer className={styles['Footer']}>
