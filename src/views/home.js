@@ -37,11 +37,9 @@ const Home = (props) => {
           </div>
         </div>
         <div className={styles['BtnGroup']}>
-          <button
-            className={` ${styles['button']} ${projectStyles['button']} `}
-          >
+          <a className={` ${styles['button']} ${projectStyles['button']} `} href="https://buy.stripe.com/test_eVafZp2EG8to9KofYY" target="_blank">
             BUY NOW
-          </button>
+          </a>
         </div>
         <div data-type="BurgerMenu" className={styles['BurgerMenu']}>
           <svg viewBox="0 0 1024 1024" className={styles['icon02']}>
@@ -99,11 +97,9 @@ const Home = (props) => {
           <h1 className={styles['text05']}>A Totally Not Fake Book.</h1>
           <h2 className={styles['text06']}>LEARNING LOOP SPECIAL EDITION</h2>
           <div className={styles['BtnGroup1']}>
-            <button
-              className={` ${styles['button1']} ${projectStyles['button']} `}
-            >
+            <a className={` ${styles['button1']} ${projectStyles['button']} `} href="https://buy.stripe.com/test_eVafZp2EG8to9KofYY" target="_blank">
               BUY BOOK
-            </button>
+            </a>
             <button
               className={` ${styles['button2']} ${projectStyles['button']} `}
             >
@@ -141,11 +137,9 @@ const Home = (props) => {
           REFUNDS.
         </span>
         <div className={styles['container5']}>
-          <button
-            className={` ${styles['button3']} ${projectStyles['button']} `}
-          >
-            Buy Now
-          </button>
+          <a className={` ${styles['button3']} ${projectStyles['button']} `} href="https://buy.stripe.com/test_eVafZp2EG8to9KofYY" target="_blank">
+            Buy now
+          </a>
         </div>
       </div>
       <footer className={styles['Footer']}>
